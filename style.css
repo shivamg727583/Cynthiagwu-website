@@ -156,6 +156,7 @@ cursor: pointer;
 .elem img{
     position: absolute;
     z-index: 999;
+    transform: translate(-50%,-50%);
     width: 400px;
     height: 300px;
     opacity: 0;
@@ -296,6 +297,7 @@ margin-bottom: 7px;
     height: 20px;
     border-radius: 50%;
     background: white;
+    transform: translate(-50%,-50%);
     position: absolute;
     z-index: 999999999999999;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
